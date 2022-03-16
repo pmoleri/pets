@@ -1,0 +1,18 @@
+<div class="group row">
+  <div class="group_2 row">
+    <h6 class="h6">Rapid Fission Inc.</h6>
+    <button igxButton="raised" igxRipple routerLink="/master-view/home" class="button_1">Home</button>
+    <button igxButton="flat" igxRipple routerLink="/master-view/my-info" class="button_1">My Info</button>
+    <button igxButton="flat" [disabled]="true" igxRipple class="button_1">People</button>
+    <button igxButton="flat" [disabled]="true" igxRipple class="button_1">My Files</button>
+  </div>
+  <div class="group_1 row">
+    <button igxButton="icon" igxRipple class="button">
+      <igx-icon>notifications</igx-icon>
+    </button>
+    <igx-avatar src="https://d3cg6cexo8t5ug.cloudfront.net/avatars/avatar6.png" [roundShape]="true" size="small"></igx-avatar>
+  </div>
+</div>
+<div class="view-container">
+  <router-outlet></router-outlet>
+</div>

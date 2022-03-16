@@ -1,0 +1,10 @@
+:host {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
+.calendar {
+  width: max-content;
+  height: max-content;
+  flex-shrink: 0;
+}
